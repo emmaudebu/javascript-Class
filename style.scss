@@ -40,7 +40,7 @@ section{
         border-radius: 8px;
         height: 40px;
         cursor: pointer;
-        border: none;
+        border: 1px solid gray;
     }
     
     button:hover{
@@ -52,9 +52,15 @@ section{
          margin-inline: 10px;
      }
 }
-@media (max-width: 340px) {
-    section{
-         width: 200px;
+
+
+@media (max-width: 640px) {
+    section {
+        width: 300px;
+        margin-inline: 10px;
+
+
+
     }
-    
+
 }
