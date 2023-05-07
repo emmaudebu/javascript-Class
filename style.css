@@ -38,7 +38,7 @@ section button {
   border-radius: 8px;
   height: 40px;
   cursor: pointer;
-  border: none;
+  border: 1px solid gray;
 }
 section button:hover {
   border: 1px solid gray;
@@ -48,8 +48,9 @@ section span {
   margin-inline: 10px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 640px) {
   section {
-    width: 200px;
+    width: 300px;
+    margin-inline: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
