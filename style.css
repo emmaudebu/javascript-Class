@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+section {
+  width: 400px;
+  height: 300px;
+  background: gainsboro;
+  border: solid 1px black;
+  padding: 40px;
+  border-radius: 9px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+section input {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px gray solid;
+  padding-left: 10px;
+}
+section div {
+  margin-top: 20px;
+}
+section .btn {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+section button {
+  width: 150px;
+  padding-inline: 7px;
+  border-radius: 8px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+}
+section button:hover {
+  border: 1px solid gray;
+}
+section span {
+  color: green;
+  margin-inline: 10px;
+}
+
+@media (max-width: 340px) {
+  section {
+    width: 200px;
+  }
+}/*# sourceMappingURL=style.css.map */
