@@ -50,7 +50,7 @@ section span {
 
 @media (max-width: 640px) {
   section {
-    width: 300px;
+    width: 250px;
     margin-inline: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
