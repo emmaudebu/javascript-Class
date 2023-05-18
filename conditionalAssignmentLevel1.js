@@ -13,13 +13,13 @@ const ValidAge = 18;
 
 if (MyAge >= 18) {
     console.log('You are old enough to drive');
-    
-    
+
+
 } else {
 
     const Differnce = ValidAge - MyAge
     console.log(`Please wait for ${Differnce} years to turn 18 before yo drive`)
-    
+
 }
 
 
@@ -34,15 +34,15 @@ if (MyAge >= 18) {
 let Myage = prompt('Enter your age');
 const YourAge = 35;
 if (Myage < YourAge) {
-    let RESULT = YourAge-Myage  ;
+    let RESULT = YourAge - Myage;
     console.log(`You are ${RESULT} years older than me`)
-    
-    
-    
-} else if(Myage > YourAge) {
-    let RESULT = Myage -YourAge   ;
+
+
+
+} else if (Myage > YourAge) {
+    let RESULT = Myage - YourAge;
     console.log(`I am  ${RESULT} years older than you`)
-    
+
 } else {
     console.log("We are mates")
 }
@@ -68,7 +68,7 @@ if (Myage < YourAge) {
 //    ```
 
 let a = 4
- b = 3;
+b = 3;
 
 { a > b ? "a is greater than b" : "a is less than b" };
 
@@ -76,9 +76,22 @@ let a = 4
 
 if (a > b) {
 
-    console.log( "a is greater than b" );
-    
+    console.log("a is greater than b");
+
 } else {
-    console.log("b is greater than a" );
-    
+    console.log("b is greater than a");
+
 }
+// 1. Even numbers are divisible by 2 and the remainder is zero.How do you check, if a number is even or not using JavaScript ?
+
+//     ```sh
+//    Enter a number: 2
+//    2 is an even number
+
+//    Enter a number: 9
+//    9 is is an odd number.
+//
+
+// const newNumber = prompt('Enter a number to check if its even number');
+const NewNumber = prompt(" Enter A number to")
+{ NewNumber % 2 == 0 ? `${NewNumber} is an even number` : `${ NewNumber } is an odd number` }
