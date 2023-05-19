@@ -39,11 +39,21 @@ if (scores <= 49) {
 
 const Month = prompt('Enter the month')
 
-if (Month.toLowerCase == "september".toUpperCase || Month == "October".toUpperCase || Month == "November".toUpperCase) {
+if (Month.toUpperCase() == "september".toUpperCase() || Month.toUpperCase() == "october".toUpperCase() || Month.toUpperCase() == "november".toUpperCase()) {
     
     alert( `The Month ${Month} and the season is Autum`)
 
     
-} else {
+} else if (Month.toUpperCase() == "December".toUpperCase() || Month.toUpperCase() == "January".toUpperCase() || Month.toUpperCase() == "February".toUpperCase()) {
+
+    alert(`The Month ${Month} and the season is Winter`)
+
+} else if (Month.toUpperCase() == "March".toUpperCase() || Month.toUpperCase() == "April ".toUpperCase() || Month.toUpperCase() == "May".toUpperCase()) {
+
+    alert(`The Month ${Month} and the season is Spring`)
+} else if (Month.toUpperCase() == "June".toUpperCase() || Month.toUpperCase() == "July ".toUpperCase() || Month.toUpperCase() == "August".toUpperCase()) {
+    alert(`The Month ${Month} and the season is Summer`)
     
+} else {
+    alert('Invalid input please put in a correct month')
 }
