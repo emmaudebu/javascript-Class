@@ -89,6 +89,6 @@
 //   Enter a month: February
 //   February has 28 days.
 
-//   Enter a month: FEbruary
+//   Enter a month: FEbruary     
 //   February has 28 days.
 // ```

@@ -26,9 +26,6 @@ if (scores <= 49) {
 }
 
 
-
-
-
 // 1. Check if the season is Autumn, Winter, Spring or Summer.
 //    If the user input is:
 // - September, October or November, the season is Autumn.
@@ -55,5 +52,50 @@ if (Month.toUpperCase() == "september".toUpperCase() || Month.toUpperCase() == "
     alert(`The Month ${Month} and the season is Summer`)
     
 } else {
+    alert('Invalid input please put in a correct month')
+}
+
+
+// ### Exercises: Level 3
+
+// 1. Write a program which tells the number of days in a month.
+
+// ```sh
+//   Enter a month: January
+//   January has 31 days.
+
+//   Enter a month: JANUARY
+//   January has 31 day
+
+//   Enter a month: February
+//   February has 28 days.
+
+//   Enter a month: FEbruary
+//   February has 28 days.
+
+const CheckMonth = prompt('Enter the month')
+
+if (CheckMonth.toUpperCase() == "january".toUpperCase() ||
+    CheckMonth.toUpperCase() == "march".toUpperCase() ||
+    CheckMonth.toUpperCase() == "may".toUpperCase() ||
+    CheckMonth.toUpperCase() == "december".toUpperCase() ||
+    CheckMonth.toUpperCase() == "july".toUpperCase() ||
+    CheckMonth.toUpperCase() == "september".toUpperCase() ||
+    CheckMonth.toUpperCase() == "october".toUpperCase()) {
+
+    alert(`The Month ${CheckMonth} has 31 days`)
+
+
+} else if (CheckMonth.toUpperCase() == "april".toUpperCase() ||
+    CheckMonth.toUpperCase() == "June".toUpperCase() ||
+    CheckMonth.toUpperCase() == "september".toUpperCase() ||
+    CheckMonth.toUpperCase() == "november".toUpperCase()) {
+
+    alert(`The Month ${CheckMonth} has 30 days`)
+
+} else if (CheckMonth.toUpperCase() == "February".toUpperCase() ){
+
+    alert(`The Month ${CheckMonth} ha 28 days and 29 days in leap year`)
+}  else {
     alert('Invalid input please put in a correct month')
 }
