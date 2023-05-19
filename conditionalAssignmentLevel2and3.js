@@ -99,3 +99,25 @@ if (CheckMonth.toUpperCase() == "january".toUpperCase() ||
 }  else {
     alert('Invalid input please put in a correct month')
 }
+
+
+
+// 1. Check if a day is weekend day or a working day.Your script will take day as an input.
+
+// ```sh
+//     What is the day  today? Saturday
+//     Saturday is a weekend.t
+
+//     What is the day today? saturDaY
+//     Saturday is a weekend.
+
+//     What is the day today? Friday
+//     Friday is a working day.
+
+//     What is the day today? FrIDAy
+//     Friday is a working day.
+//
+
+const day = prompt('Enter the Day')
+
+{ day.toUpperCase == "Monday".toUpperCase || day.toUpperCase == "tuesday".toUpperCase || day.toUpperCase == "wednesday".toUpperCase || day.toUpperCase == "thursday".toUpperCase ? alert(`${day} is Working day`) : alert(`${day} is Weekend day`) }
