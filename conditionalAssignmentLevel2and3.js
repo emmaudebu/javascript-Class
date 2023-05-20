@@ -106,7 +106,7 @@ if (CheckMonth.toUpperCase() == "january".toUpperCase() ||
 
 // ```sh
 //     What is the day  today? Saturday
-//     Saturday is a weekend.t
+//     Saturday is a weekend.
 
 //     What is the day today? saturDaY
 //     Saturday is a weekend.
